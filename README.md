@@ -10,3 +10,6 @@
 
 
 ![주석 2020-08-29 200152](https://user-images.githubusercontent.com/29808782/91635333-ab371680-ea32-11ea-87cc-2fb04e05da85.png)
+
+
+![image](https://user-images.githubusercontent.com/29808782/91635961-b771a280-ea37-11ea-9669-746c9884d67e.png)
