@@ -17,6 +17,8 @@ namespace CommonShop
 
         public List<Sprite> m_ShopItemsList = new List<Sprite>();
 
+        public ShopData m_ShopData;
+
         private void Awake()
         {
             LoadShopItemSprites();
@@ -30,6 +32,7 @@ namespace CommonShop
         {
             Sprite[] sprites = Resources.LoadAll<Sprite>("Textures/ShopItem") as Sprite[];
 
+            int i = 0;
             foreach (Sprite sp in sprites)
             {
                 m_ShopItemsList.Add(sp);

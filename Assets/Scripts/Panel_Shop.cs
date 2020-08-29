@@ -32,7 +32,9 @@ namespace CommonShop
             {
                 ShopItem item = InstantiateItem();
 
+                ItemData data = ResourcesLoader.Instance.m_ShopData.m_ItemDataList[i];
                 Sprite sprite = ResourcesLoader.Instance.m_ShopItemsList[i];
+                item.SetData(data);
                 item.SetSprite(sprite);
             }
         }

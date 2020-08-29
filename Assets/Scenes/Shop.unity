@@ -763,3 +763,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_ShopItemsList: []
+  m_ShopData: {fileID: 11400000, guid: 07ccae38e936aad4084d203fe3414abf, type: 2}

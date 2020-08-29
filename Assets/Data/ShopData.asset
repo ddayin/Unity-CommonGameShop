@@ -1,0 +1,145 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5281aca3f9944b54b841f32d50cf6268, type: 3}
+  m_Name: ShopData
+  m_EditorClassIdentifier: 
+  m_ItemDataList:
+  - id: 0
+    name_en: apple
+    sprite_name: apple
+    coin_buy: 10
+    is_locked: 0
+  - id: 1
+    name_en: armor
+    sprite_name: armor
+    coin_buy: 100
+    is_locked: 0
+  - id: 2
+    name_en: axe
+    sprite_name: axe
+    coin_buy: 60
+    is_locked: 0
+  - id: 3
+    name_en: bow
+    sprite_name: b_t_01
+    coin_buy: 130
+    is_locked: 0
+  - id: 4
+    name_en: bag
+    sprite_name: bag
+    coin_buy: 50
+    is_locked: 0
+  - id: 5
+    name_en: belts
+    sprite_name: belts
+    coin_buy: 40
+    is_locked: 0
+  - id: 6
+    name_en: book
+    sprite_name: book
+    coin_buy: 30
+    is_locked: 0
+  - id: 7
+    name_en: boots
+    sprite_name: boots
+    coin_buy: 30
+    is_locked: 0
+  - id: 8
+    name_en: bracers
+    sprite_name: bracers
+    coin_buy: 60
+    is_locked: 0
+  - id: 9
+    name_en: cloaks
+    sprite_name: cloaks
+    coin_buy: 80
+    is_locked: 0
+  - id: 10
+    name_en: coins
+    sprite_name: coins
+    coin_buy: 10
+    is_locked: 0
+  - id: 11
+    name_en: frame
+    sprite_name: f
+    coin_buy: 5
+    is_locked: 0
+  - id: 12
+    name_en: gem
+    sprite_name: gem
+    coin_buy: 400
+    is_locked: 0
+  - id: 13
+    name_en: gloves
+    sprite_name: gloves
+    coin_buy: 50
+    is_locked: 0
+  - id: 14
+    name_en: helmets
+    sprite_name: helmets
+    coin_buy: 80
+    is_locked: 0
+  - id: 15
+    name_en: hp
+    sprite_name: hp
+    coin_buy: 10
+    is_locked: 0
+  - id: 16
+    name_en: ingots
+    sprite_name: ingots
+    coin_buy: 300
+    is_locked: 0
+  - id: 17
+    name_en: meat
+    sprite_name: Meat
+    coin_buy: 20
+    is_locked: 0
+  - id: 18
+    name_en: mp
+    sprite_name: mp
+    coin_buy: 20
+    is_locked: 0
+  - id: 19
+    name_en: necklace
+    sprite_name: necklace
+    coin_buy: 200
+    is_locked: 0
+  - id: 20
+    name_en: pants
+    sprite_name: pants
+    coin_buy: 100
+    is_locked: 0
+  - id: 21
+    name_en: rings
+    sprite_name: rings
+    coin_buy: 180
+    is_locked: 0
+  - id: 22
+    name_en: scroll
+    sprite_name: scroll
+    coin_buy: 20
+    is_locked: 0
+  - id: 23
+    name_en: shield
+    sprite_name: shield
+    coin_buy: 60
+    is_locked: 0
+  - id: 24
+    name_en: shoulders
+    sprite_name: shoulders
+    coin_buy: 60
+    is_locked: 0
+  - id: 25
+    name_en: sword
+    sprite_name: sword
+    coin_buy: 200
+    is_locked: 0
