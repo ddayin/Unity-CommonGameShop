@@ -28,9 +28,12 @@ namespace CommonShop
 
         private void TestCreate()
         {
-            for (int i = 0; i < 50; i++)
+            for (int i = 0; i < ResourcesLoader.Instance.m_ShopItemsList.Count; i++)
             {
-                InstantiateItem();
+                ShopItem item = InstantiateItem();
+
+                Sprite sprite = ResourcesLoader.Instance.m_ShopItemsList[i];
+                item.SetSprite(sprite);
             }
         }
 

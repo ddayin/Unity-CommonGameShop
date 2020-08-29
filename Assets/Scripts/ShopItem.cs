@@ -25,5 +25,10 @@ namespace CommonShop
         {
             Debug.Log("OnClickButton() called");
         }
+
+        public void SetSprite(Sprite spriteItem)
+        {
+            m_Image.sprite = spriteItem;
+        }
     }
 }
