@@ -11,6 +11,7 @@ namespace CommonShop
         private Button m_ButtonClose;
         [SerializeField] private GameObject m_ShopItemPrefab;
         [SerializeField] private Transform m_TransformParent;
+        [SerializeField] private List<Item_Category> m_CategoryList = new List<Item_Category>();
 
         private void Awake()
         {
@@ -23,6 +24,11 @@ namespace CommonShop
 
         private void Start()
         {
+            m_CategoryList[0].Setup(ShopCategory.AAA);
+            m_CategoryList[1].Setup(ShopCategory.BBB);
+            m_CategoryList[2].Setup(ShopCategory.CCC);
+            m_CategoryList[3].Setup(ShopCategory.DDD);
+
             TestCreate();
         }
 
