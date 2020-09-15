@@ -15,7 +15,7 @@ namespace CommonShop
         /// </summary>
         public Dictionary<string, Sprite> m_ShopItemsDic = new Dictionary<string, Sprite>();
 
-        public List<Sprite> m_ShopItemsList = new List<Sprite>();
+        public List<Sprite> m_ShopSpritesList = new List<Sprite>();
 
         public ShopData m_ShopData;
 
@@ -35,7 +35,7 @@ namespace CommonShop
             int i = 0;
             foreach (Sprite sp in sprites)
             {
-                m_ShopItemsList.Add(sp);
+                m_ShopSpritesList.Add(sp);
             }
         }
     }

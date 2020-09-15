@@ -5,6 +5,11 @@ using UnityEngine.UI;
 
 namespace CommonShop
 {
+    public class CategoryData
+    {
+        public List<ItemData> dataList;
+    }
+
     public enum ShopCategory
     {
         AAA = 0,
@@ -19,12 +24,15 @@ namespace CommonShop
         private Button m_Button;
         private Text m_Text;
 
+        public Button CategoryButton
+        {
+            get { return m_Button; }
+        }
+
         private void Awake()
         {
             m_Button = transform.GetComponent<Button>();
             m_Text = transform.Find("Text").GetComponent<Text>();
-
-            m_Button.onClick.AddListener(OnClick);
         }
 
         public void Setup(ShopCategory category)
@@ -52,9 +60,5 @@ namespace CommonShop
             m_Text.text = content;
         }
 
-        private void OnClick()
-        {
-
-        }
     }
 }

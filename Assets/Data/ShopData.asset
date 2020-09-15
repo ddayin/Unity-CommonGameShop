@@ -14,131 +14,157 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_ItemDataList:
   - id: 0
+    category: 3
     name_en: apple
     sprite_name: apple
     coin_buy: 10
     is_locked: 0
   - id: 1
+    category: 0
     name_en: armor
     sprite_name: armor
     coin_buy: 100
     is_locked: 0
   - id: 2
+    category: 0
     name_en: axe
     sprite_name: axe
     coin_buy: 60
     is_locked: 0
   - id: 3
+    category: 0
     name_en: bow
     sprite_name: b_t_01
     coin_buy: 130
     is_locked: 0
   - id: 4
+    category: 0
     name_en: bag
     sprite_name: bag
     coin_buy: 50
     is_locked: 0
   - id: 5
+    category: 0
     name_en: belts
     sprite_name: belts
     coin_buy: 40
     is_locked: 0
   - id: 6
+    category: 0
     name_en: book
     sprite_name: book
     coin_buy: 30
     is_locked: 0
   - id: 7
+    category: 0
     name_en: boots
     sprite_name: boots
     coin_buy: 30
     is_locked: 0
   - id: 8
+    category: 0
     name_en: bracers
     sprite_name: bracers
     coin_buy: 60
     is_locked: 0
   - id: 9
+    category: 0
     name_en: cloaks
     sprite_name: cloaks
     coin_buy: 80
     is_locked: 0
   - id: 10
+    category: 0
     name_en: coins
     sprite_name: coins
     coin_buy: 10
     is_locked: 0
   - id: 11
+    category: 0
     name_en: frame
     sprite_name: f
     coin_buy: 5
     is_locked: 0
   - id: 12
+    category: 0
     name_en: gem
     sprite_name: gem
     coin_buy: 400
     is_locked: 0
   - id: 13
+    category: 0
     name_en: gloves
     sprite_name: gloves
     coin_buy: 50
     is_locked: 0
   - id: 14
+    category: 0
     name_en: helmets
     sprite_name: helmets
     coin_buy: 80
     is_locked: 0
   - id: 15
+    category: 3
     name_en: hp
     sprite_name: hp
     coin_buy: 10
     is_locked: 0
   - id: 16
+    category: 2
     name_en: ingots
     sprite_name: ingots
     coin_buy: 300
     is_locked: 0
   - id: 17
+    category: 2
     name_en: meat
     sprite_name: Meat
     coin_buy: 20
     is_locked: 0
   - id: 18
+    category: 2
     name_en: mp
     sprite_name: mp
     coin_buy: 20
     is_locked: 0
   - id: 19
+    category: 0
     name_en: necklace
     sprite_name: necklace
     coin_buy: 200
     is_locked: 0
   - id: 20
+    category: 0
     name_en: pants
     sprite_name: pants
     coin_buy: 100
     is_locked: 0
   - id: 21
+    category: 0
     name_en: rings
     sprite_name: rings
     coin_buy: 180
     is_locked: 0
   - id: 22
+    category: 2
     name_en: scroll
     sprite_name: scroll
     coin_buy: 20
     is_locked: 0
   - id: 23
+    category: 1
     name_en: shield
     sprite_name: shield
     coin_buy: 60
     is_locked: 0
   - id: 24
+    category: 0
     name_en: shoulders
     sprite_name: shoulders
     coin_buy: 60
     is_locked: 0
   - id: 25
+    category: 0
     name_en: sword
     sprite_name: sword
     coin_buy: 200

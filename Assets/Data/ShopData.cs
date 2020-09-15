@@ -9,6 +9,7 @@ namespace CommonShop
     public class ItemData
     {
         public int id;
+        public ShopCategory category;        
         public string name_en;
         public string sprite_name;
         public double coin_buy;
