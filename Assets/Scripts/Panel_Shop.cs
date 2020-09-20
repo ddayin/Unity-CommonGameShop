@@ -11,9 +11,8 @@ namespace CommonShop
         private Button m_ButtonClose;
         [SerializeField] private GameObject m_ShopItemPrefab;
         [SerializeField] private Transform m_TransformParent;
-
         private List<CategoryData> m_CategoryDataList = new List<CategoryData>();
-        private List<Transform> m_TransformContent = new List<Transform>();
+        
         
         private void Awake()
         {
@@ -61,16 +60,6 @@ namespace CommonShop
             }
         }
 
-        private void CreateItem()
-        {
-            foreach (ItemData data in m_CategoryDataList[0].dataList)
-            {
-                ShopItem item = InstantiateItem(m_TransformContent[0]);
-                item.SetData(data);
-                //item.SetSprite(sprite);
-            }
-        }
-
         private void TestCreate()
         {
             for (int i = 0; i < ResourcesLoader.Instance.m_ShopSpritesList.Count; i++)
@@ -86,18 +75,17 @@ namespace CommonShop
 
         private void OnClickClose()
         {
-            //Destroy(this.gameObject);
-            PopupManager.Instance.CloseShop();
+            Destroy(gameObject);
         }
 
         /// <summary>
         /// 상점 아이템을 instantiate해서 새롭게 생성하고 ShopItem을 반환한다.
         /// </summary>
         /// <returns></returns>
-        private ShopItem InstantiateItem(Transform parent)
+        private ShopItem InstantiateItem()
         {
             GameObject newObject = Instantiate(m_ShopItemPrefab) as GameObject;
-            newObject.transform.SetParent(parent);
+            newObject.transform.SetParent(m_TransformParent);
             ShopItem item = newObject.GetComponent<ShopItem>();
             return item;
         }
