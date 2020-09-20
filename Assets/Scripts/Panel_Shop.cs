@@ -64,7 +64,7 @@ namespace CommonShop
         {
             for (int i = 0; i < ResourcesLoader.Instance.m_ShopSpritesList.Count; i++)
             {
-                ShopItem item = InstantiateItem(m_TransformParent);
+                ShopItem item = InstantiateItem();
 
                 ItemData data = ResourcesLoader.Instance.m_ShopData.m_ItemDataList[i];
                 Sprite sprite = ResourcesLoader.Instance.m_ShopSpritesList[i];
