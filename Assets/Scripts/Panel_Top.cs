@@ -8,7 +8,6 @@ namespace CommonShop
     public class Panel_Top : MonoBehaviour
     {
         private Button m_ButtonShop;
-        //public Button m_Button;
 
         private void Awake() 
         {
@@ -19,7 +18,6 @@ namespace CommonShop
 
         private void OnClickShop()
         {
-            //Debug.LogWarning("OnClickShop() called");
             PopupManager.Instance.ShowShop();
         }
     }

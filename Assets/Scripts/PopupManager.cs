@@ -11,17 +11,11 @@ namespace CommonShop
         [SerializeField] private GameObject m_PrefabShop;
         [SerializeField] private Transform m_TransformParent;
 
-        private void Awake()
-        {
-            
-        }
-
         public Panel_Shop ShowShop()
         {
             GameObject newObject = Instantiate(m_PrefabShop) as GameObject;
             newObject.transform.SetParent(m_TransformParent);
-            //newObject.transform.SetPositionAndRotation(Vector2.zero, Quaternion.identity);
-
+            
             RectTransform rt = newObject.transform as RectTransform;
             rt.anchoredPosition = Vector2.zero;
 
