@@ -1,9 +1,11 @@
 # Unity-CommonGameShop
 
-유니티로 게임 제작 시, 필요한 상점 팝업 틀입니다.
+Common game shop with Unity
 
 - Unity 2020.1.0f1
 - Visual Studio 2019 Community
+
+https://ddayin.tistory.com/329
 
 
 ![주석 2020-08-29 194201](https://user-images.githubusercontent.com/29808782/91635002-c18fa300-ea2f-11ea-96f5-767d7225ea2d.png)
