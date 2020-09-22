@@ -17,8 +17,12 @@ You can simply call ShowShop() method from PopupManager like below.
 
 PopupManager.Instance.ShowShop();
 
+# How to develop common game shop?
+In my blog, I explained how to develop common game shop.
+You can check out below link.
 https://ddayin.tistory.com/329
 
+# Development progress with screenshot
 
 ![주석 2020-08-29 194201](https://user-images.githubusercontent.com/29808782/91635002-c18fa300-ea2f-11ea-96f5-767d7225ea2d.png)
 
