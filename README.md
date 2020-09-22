@@ -20,6 +20,8 @@ PopupManager.Instance.ShowShop();
 # How to develop common game shop?
 In my blog, I explained how to develop common game shop.
 You can check out below link.
+It's written in Korean.
+
 https://ddayin.tistory.com/329
 
 # Development progress with screenshot
