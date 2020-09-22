@@ -8,7 +8,7 @@ Common game shop with Unity
 - Target OS : Android / iOS
 
 # Why CommonGameShop?
-Most of game shop have common features like below.
+Most of game shop have common features like below.   
 My goal is for others to use this common game shop as development reference.
 
 - They have items on Scroll View which can be scrolled.
@@ -24,8 +24,8 @@ PopupManager.Instance.ShowShop();
 </pre>
 
 # How to develop common game shop?
-In my blog, I explained how to develop common game shop.
-You can check out below link.
+In my blog, I explained how to develop common game shop.   
+You can check out below link.   
 It's written in Korean.
 
 https://ddayin.tistory.com/329
