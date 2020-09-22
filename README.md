@@ -5,6 +5,18 @@ Common game shop with Unity
 - Unity 2020.1.0f1
 - Visual Studio 2019 Community
 
+# Why CommonGameShop?
+Most of game shop have common features like below.
+
+- They have items on Scroll View which can be scrolled.
+- They have categories to explore other contents.
+- You can purchase item by touching buy button on each item.
+
+# How to use?
+You can simply call ShowShop() method from PopupManager like below.
+
+PopupManager.Instance.ShowShop();
+
 https://ddayin.tistory.com/329
 
 
