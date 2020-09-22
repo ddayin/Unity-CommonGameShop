@@ -7,6 +7,7 @@ Common game shop with Unity
 
 # Why CommonGameShop?
 Most of game shop have common features like below.
+My goal is for others to use this common game shop as development reference.
 
 - They have items on Scroll View which can be scrolled.
 - They have categories to explore other contents.
