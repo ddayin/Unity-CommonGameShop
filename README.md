@@ -21,7 +21,7 @@ You can simply call ShowShop() method from PopupManager like below.
 <code>
 PopupManager.Instance.ShowShop();
 </code>
-<pre>
+</pre>
 
 # How to develop common game shop?
 In my blog, I explained how to develop common game shop.
