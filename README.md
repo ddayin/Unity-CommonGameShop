@@ -30,6 +30,11 @@ It's written in Korean.
 
 https://ddayin.tistory.com/329
 
+# todo list
+- 상점 아이템의 데이터와 스프라이트 일치 시키기
+- 상점 내 카테고리로 나누기
+- 상점 버튼을 클릭하면 결재 진행하기
+
 # Development progress with screenshot
 
 ![주석 2020-08-29 194201](https://user-images.githubusercontent.com/29808782/91635002-c18fa300-ea2f-11ea-96f5-767d7225ea2d.png)
