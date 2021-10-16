@@ -23,13 +23,6 @@ PopupManager.Instance.ShowShop();
 </code>
 </pre>
 
-# How to develop common game shop?
-In my blog, I explained how to develop common game shop.   
-You can check out below link.   
-It's written in Korean.
-
-https://ddayin.tistory.com/329
-
 # todo list
 - 상점 아이템의 데이터와 스프라이트 일치 시키기
 - 상점 내 카테고리로 나누기
